@@ -1,0 +1,25 @@
+{
+  "name": "log4js-desensitization",
+  "version": "0.0.1",
+  "description": "log4js 日志脱敏 desensitization",
+  "main": "lunch.js",
+  "scripts": {
+    "start": "node lunch.js",
+    "start:d": "cross-env desensitizationFlag=1 node lunch.js",
+    "test": "test"
+  },
+  "keywords": [
+    "log4js",
+    "日志脱敏",
+    "desensitization"
+  ],
+  "author": "smileBeauty",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "log4js": "^6.9.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
