@@ -27,3 +27,5 @@
 ## 5. 将脱敏方法弄成 npm 包
 
 ## 6. 支持 winston
+
+## 7. 自定义layout的pattern参数和内置pattern layout的参数保持一致
